@@ -62,7 +62,7 @@ const Hero = (): JSX.Element => {
               </div>
 
               <h1 className="hero-title mb-4">
-                Hi, I'm <span className="gradient-text">Sudhansh Goel</span>
+                Hi, I'm <span className="gradient-text">Rohan Bansal</span>
               </h1>
 
               <div className="hero-subtitle mb-4">
@@ -74,13 +74,13 @@ const Hero = (): JSX.Element => {
               </div>
 
               <p className="hero-description mb-5">
-                Passionate software engineer specializing in full-stack development with expertise in
-                <span className="tech-highlight"> .NET Core</span>,
-                <span className="tech-highlight"> React</span>,
-                <span className="tech-highlight"> React Native</span>,
-                <span className="tech-highlight"> TypeScript</span>, and
-                <span className="tech-highlight"> Golang</span>.
-                I create scalable, user-focused applications that solve real-world problems.
+                Passionate Full Stack Developer specializing in modern web technologies with expertise in
+                <span className="tech-highlight"> React.js</span>,
+                <span className="tech-highlight"> Node.js</span>,
+                <span className="tech-highlight"> TypeScript</span>,
+                <span className="tech-highlight"> .NET Core</span>, and
+                <span className="tech-highlight"> Cloud Architecture</span>.
+                Currently pursuing MCA in Full Stack Development, I create scalable, user-focused applications that solve real-world problems.
               </p>
 
               <div className="hero-actions mb-5">
@@ -95,8 +95,8 @@ const Hero = (): JSX.Element => {
                   Get In Touch
                 </Link>
                 <a
-                  href="./resume/Sudhansh_Goel_Resume.pdf"
-                  download="Sudhansh_Goel_Resume.pdf"
+                  href="./resume/Rohan_Bansal_Resume.pdf"
+                  download="Rohan_Bansal_Resume.pdf"
                   className="btn btn-outline-modern"
                 >
                   <FiDownload className="me-2" />

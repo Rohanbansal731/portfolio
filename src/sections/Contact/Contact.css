@@ -54,13 +54,13 @@
 .form-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, var(--primary-purple), var(--primary-cyan));
+  background: var(--primary-gradient);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
-  color: white;
+  color: var(--text-inverse);
   margin-right: 10px;
   box-shadow: var(--shadow-glow);
 }
@@ -105,7 +105,7 @@
 }
 
 .label-icon {
-  color: var(--primary-cyan);
+  color: var(--primary-coral);
   font-size: 16px;
 }
 
@@ -234,14 +234,14 @@
 .method-icon {
   width: 55px;
   height: 55px;
-  background: linear-gradient(135deg, rgba(125, 95, 255, 0.2), rgba(24, 220, 255, 0.2));
-  border: 1px solid var(--border-accent);
+  background: var(--bg-card-hover);
+  border: 2px solid var(--border-accent);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 22px;
-  color: var(--primary-cyan);
+  color: var(--primary-coral);
   flex-shrink: 0;
   transition: var(--transition-normal);
 }
@@ -270,7 +270,7 @@
 }
 
 .method-link {
-  color: var(--primary-cyan);
+  color: var(--primary-coral);
   font-size: 0.85rem;
   font-weight: 500;
   text-decoration: none;
@@ -278,7 +278,7 @@
 }
 
 .method-link:hover {
-  color: var(--primary-purple);
+  color: var(--primary-teal);
 }
 
 .availability-status {
@@ -306,13 +306,13 @@
 .status-dot {
   width: 8px;
   height: 8px;
-  background: var(--primary-cyan);
+  background: var(--primary-coral);
   border-radius: 50%;
   animation: pulse 2s ease-in-out infinite;
 }
 
 .status-text {
-  color: var(--primary-cyan);
+  color: var(--primary-coral);
   font-size: 0.9rem;
   font-weight: 600;
 }
@@ -589,4 +589,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Theme-specific icon adjustments */
+[data-theme="light"] .form-icon {
+  color: var(--text-inverse);
+  box-shadow: var(--shadow-md);
+}
+
+[data-theme="dark"] .form-icon {
+  color: var(--text-inverse);
+  box-shadow: var(--shadow-neon);
+}
+
+[data-theme="light"] .method-icon {
+  background: rgba(255, 107, 107, 0.1);
+  border-color: var(--primary-coral);
+  color: var(--primary-coral);
+}
+
+[data-theme="dark"] .method-icon {
+  background: rgba(255, 107, 107, 0.1);
+  border-color: var(--primary-coral);
+  color: var(--primary-coral);
+}
+
+[data-theme="light"] .label-icon {
+  color: var(--primary-coral);
+}
+
+[data-theme="dark"] .label-icon {
+  color: var(--primary-coral);
+}
+
+/* Ensure button icons inherit proper colors */
+.btn-modern .btn-icon {
+  color: inherit;
+}
+
+.btn-primary-modern .btn-icon {
+  color: var(--text-inverse);
+}
+
+.btn-secondary-modern .btn-icon {
+  color: var(--text-primary);
+}
+
+.btn-outline-modern .btn-icon {
+  color: var(--text-primary);
+}
+
+.btn-outline-modern:hover .btn-icon {
+  color: var(--text-inverse);
 }

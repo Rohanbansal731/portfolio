@@ -1,44 +1,45 @@
-export const words = ["Full Stack Developer", "Software Engineer", "React Specialist", "Backend Developer", "Problem Solver"];
+export const words = ["Full Stack Developer", "React.js Specialist", "Node.js Developer", "MERN Stack Expert", "Web Developer"];
 
 export const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React, Node.js, and PostgreSQL featuring real-time inventory management.',
+      title: 'E-Commerce Full Stack Platform',
+      description: 'Complete e-commerce solution with React frontend, Node.js backend, and MongoDB. Features include user authentication, payment integration, and admin dashboard.',
       icon: '🛒',
-      tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      github: '#',
+      tech: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Stripe', 'JWT'],
+      github: 'https://github.com/Rohanbansal731/ecommerce-fullstack',
+      demo: '#',
+      featured: true
+    },
+    {
+      title: 'Real-Time Chat Application',
+      description: 'Full-stack chat application with Socket.io for real-time messaging, user authentication, and file sharing capabilities.',
+      icon: '💬',
+      tech: ['React.js', 'Node.js', 'Socket.io', 'MongoDB', 'Express.js'],
+      github: 'https://github.com/Rohanbansal731/realtime-chat',
       demo: '#'
     },
     {
       title: 'Task Management System',
-      description: 'Collaborative project management tool with real-time updates, file sharing, and team communication.',
+      description: 'Collaborative project management tool with drag-and-drop functionality, real-time updates, and team collaboration features.',
       icon: '📋',
-      tech: ['React', 'TypeScript', 'Socket.io', 'MongoDB'],
-      github: '#',
+      tech: ['React.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Socket.io'],
+      github: 'https://github.com/Rohanbansal731/task-management',
       demo: '#'
     },
     {
-      title: 'Real-Time Chat Application',
-      description: 'Scalable chat platform with WebSocket integration, message encryption, and multimedia support.',
-      icon: '💬',
-      tech: ['React Native', 'WebSocket', 'Redis', 'JWT'],
-      github: '#',
+      title: 'Weather Dashboard App',
+      description: 'Responsive weather application with location-based forecasts, interactive maps, and weather alerts using external APIs.',
+      icon: '🌤️',
+      tech: ['React.js', 'TypeScript', 'Weather API', 'Chart.js', 'CSS3'],
+      github: 'https://github.com/Rohanbansal731/weather-dashboard',
       demo: '#'
     },
     {
-      title: 'Analytics Dashboard',
-      description: 'Business intelligence dashboard with interactive charts, data visualization, and export capabilities.',
-      icon: '📊',
-      tech: ['React', 'D3.js', 'Python', 'FastAPI'],
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'API Gateway Service',
-      description: 'Microservices API gateway with rate limiting, authentication, and monitoring built with Golang.',
-      icon: '🔗',
-      tech: ['Golang', 'Docker', 'Kubernetes', 'Redis'],
-      github: '#',
+      title: 'Blog Platform with CMS',
+      description: 'Full-featured blogging platform with content management system, user roles, and SEO optimization.',
+      icon: '📝',
+      tech: ['Next.js', 'Node.js', 'MongoDB', 'TailwindCSS', 'NextAuth'],
+      github: 'https://github.com/Rohanbansal731/blog-platform',
       demo: '#'
     },
   ];
@@ -47,91 +48,94 @@ export const skills = [
   {
     title: "Frontend Technologies",
     skills: [
-      { name: "React.js", level: 90 },
-      { name: "TypeScript", level: 85 },
-      { name: "JavaScript", level: 95 },
-      { name: "React Native", level: 80 }
+      { name: "React.js", level: 92 },
+      { name: "TypeScript", level: 88 },
+      { name: "JavaScript (ES6+)", level: 95 },
+      { name: "Next.js", level: 85 },
+      { name: "HTML5 & CSS3", level: 90 }
     ]
   },
   {
     title: "Backend Technologies",
     skills: [
-      { name: "Golang", level: 90 },
-      { name: "C#/.NET Core", level: 85 },
-      { name: "Entity Framework", level: 80 },
-      { name: "Python", level: 75 },
+      { name: "Node.js", level: 90 },
+      { name: "Express.js", level: 88 },
+      { name: ".NET Core", level: 85 },
+      { name: "RESTful APIs", level: 92 },
+      { name: "GraphQL", level: 78 }
     ]
   },
   {
-    title: "Database & Tools",
+    title: "Database & DevOps",
     skills: [
+      { name: "MongoDB", level: 88 },
       { name: "PostgreSQL", level: 85 },
-      { name: "SQL Server", level: 80 },
-      { name: "VS Code", level: 90 },
-      { name: "Visual Studio", level: 80 }
+      { name: "Redis", level: 80 },
+      { name: "Docker", level: 82 },
+      { name: "AWS/Cloud", level: 75 }
     ]
   }
 ];
 
 export const experiences = [
   {
-    role: "Software Engineer",
-    company: "Ginilytics IT Solution Pvt. Limited",
+    role: "Full Stack Developer",
+    company: "Tech Solutions Pvt. Limited",
     location: "Mohali",
     duration: "July 2024 - Present",
-    description: "Leading development of scalable web applications and microservices architecture, mentoring junior developers, and implementing best practices for code quality and performance optimization.",
+    description: "Leading full-stack development projects with modern web technologies, focusing on scalable architecture and optimal user experience. Working with React.js, Node.js, and cloud technologies to deliver enterprise-grade solutions.",
     responsibilities: [
       [
-        "Architected and developed 2+ full-stack applications using React and .Net Core",
-        "Implemented microservices architecture reducing system latency by 40%",
-        "Led code reviews and established development best practices"
+        "Developed 3+ full-stack web applications using React.js, Node.js, and MongoDB",
+        "Implemented responsive UI components with 95% cross-browser compatibility",
+        "Built RESTful APIs serving 10,000+ daily requests with 99.9% uptime"
       ],
       [
-        "Mentored 3 junior developers and conducted technical interviews",
-        "Optimized database queries resulting in 60% performance improvement",
-        "Collaborated with product team to define technical requirements"
+        "Optimized application performance resulting in 40% faster load times",
+        "Integrated third-party services including payment gateways and authentication",
+        "Collaborated with UI/UX designers to implement pixel-perfect designs"
       ]
     ],
-    tech: ["React", "TypeScript", "React Native", ".Net Core", "Golang", "PostgreSQL"]
+    tech: ["React.js", "Node.js", "TypeScript", "MongoDB", "Express.js", "AWS", "Docker"]
   }
 ];
 
 export const achievements = [
   {
-    title: "First Prize Winner",
-    description: "National Level Hackathon 2023",
-    icon: "🏆",
-    year: "2023"
+    title: "Full Stack Development Certification",
+    description: "Advanced certification in MERN Stack Development",
+    icon: "�",
+    year: "2024"
   },
   {
-    title: "AWS Certified",
-    description: "Solutions Architect Associate",
-    icon: "☁️",
-    year: "2023"
+    title: "Best Project Award",
+    description: "University level project competition winner",
+    icon: "🏆",
+    year: "2024"
   },
   {
     title: "Open Source Contributor",
-    description: "500+ contributions on GitHub",
+    description: "Active contributor to React and Node.js projects",
     icon: "🌟",
-    year: "2022"
+    year: "2023"
   },
   {
-    title: "Multi-Domain Project Leadership",
-    description: "Led development of applications across healthcare, political campaign management, and marketing analytics domains.",
-    icon: "�",
-    year: "2025"
+    title: "Hackathon Winner",
+    description: "First place in 48-hour coding challenge",
+    icon: "💻",
+    year: "2023"
   }
 ];
 
 export const education = [
   {
     degree: "Master of Computer Applications (MCA)",
-    field: "AI and ML",
+    field: "Full Stack Development",
     institution: "Chandigarh University",
     location: "Mohali, India",
     duration: "2024 - 2026",
     grade: "9 CGPA",
-    description: "Specialized in Artificial Intelligence and Machine Learning with focus on deep learning algorithms, neural networks, data science, and intelligent systems. Coursework includes Python programming, statistical analysis, computer vision, and natural language processing."
+    description: "Specialized in Full Stack Development with comprehensive coverage of modern web technologies, microservices architecture, cloud computing, and DevOps practices. Coursework includes advanced React.js, Node.js, database design, system architecture, API development, and deployment strategies."
   },
   {
     degree: "Bachelor of Computer Applications (BCA)",
@@ -140,7 +144,7 @@ export const education = [
     location: "Yamuna Nagar, India",
     duration: "2021 - 2024",
     grade: "7.79 CGPA",
-    description: "Specialized in software engineering, data structures, algorithms, and web development. Active member of coding club and technical societies."
+    description: "Comprehensive foundation in computer science fundamentals including data structures, algorithms, software engineering principles, and web development. Active participation in coding competitions and technical projects."
   }
 ];
 
@@ -154,7 +158,7 @@ export const stats = [
 export const socialLinks = [
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/rohan-bansal/",
+    url: "https://www.linkedin.com/in/rohan-bansal-762ab12a7/",
     icon: "linkedin"
   },
   {
@@ -162,11 +166,11 @@ export const socialLinks = [
     url: "https://github.com/Rohanbansal731",
     icon: "github"
   },
-  {
-    name: "Twitter",
-    url: "https://twitter.com/rohanbansal731",
-    icon: "twitter"
-  },
+  // {
+  //   name: "Twitter",
+  //   url: "https://twitter.com/rohanbansal731",
+  //   icon: "twitter"
+  // },
   {
     name: "Email",
     url: "mailto:bansalrohan507@gmail.com",
@@ -180,13 +184,13 @@ export const socialLinks = [
 ];
 
 export const tags = [
-  'RESTful APIs', 'Microservices', 'Third-party Integrations', 'Auth0', 'Twilio', 'Stripe', 'Supabase', 'PWA', 'CI/CD', 'Performance Optimization'
+  'MERN Stack', 'Full Stack Development', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'TypeScript', 'Next.js', 'RESTful APIs', 'GraphQL', 'Socket.io', 'JWT Authentication', 'Responsive Design', 'PWA', 'Docker', 'AWS', 'Git', 'Agile Development'
 ];
 
 export const icons = [
   {
     name: "Instagram",
-    href: "https://www.instagram.com/rohanbansal731/",
+    href: "https://www.instagram.com/bansal__2525/",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -207,7 +211,7 @@ export const icons = [
   },
   {
     name: "facebook",
-    href: "https://www.facebook.com/rohanbansal731/",
+    href: "https://www.facebook.com/rohan.bansal.5209",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -220,24 +224,24 @@ export const icons = [
       </svg>
     ),
   },
-  {
-    name: "twitter",
-    href: "https://x.com/rohanbansal731",
-    svg: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
-        fill="currentColor"
-        viewBox="0 0 16 16"
-      >
-        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.007-.423A6.673 6.673 0 0 0 16 3.542a6.574 6.574 0 0 1-1.889.518A3.301 3.301 0 0 0 15.555 2a6.533 6.533 0 0 1-2.084.797A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429A3.284 3.284 0 0 0 2.13 7.16a3.323 3.323 0 0 1-1.487-.41v.041c0 1.566 1.11 2.873 2.583 3.168a3.273 3.273 0 0 1-1.482.056c.418 1.306 1.63 2.256 3.067 2.283A6.588 6.588 0 0 1 0 13.557 9.29 9.29 0 0 0 5.026 15z" />
-      </svg>
-    ),
-  },
+  // {
+  //   name: "twitter",
+  //   href: "https://x.com/rohanbansal731",
+  //   svg: (
+  //     <svg
+  //       xmlns="http://www.w3.org/2000/svg"
+  //       width="30"
+  //       height="30"
+  //       fill="currentColor"
+  //       viewBox="0 0 16 16"
+  //     >
+  //       <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.007-.423A6.673 6.673 0 0 0 16 3.542a6.574 6.574 0 0 1-1.889.518A3.301 3.301 0 0 0 15.555 2a6.533 6.533 0 0 1-2.084.797A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429A3.284 3.284 0 0 0 2.13 7.16a3.323 3.323 0 0 1-1.487-.41v.041c0 1.566 1.11 2.873 2.583 3.168a3.273 3.273 0 0 1-1.482.056c.418 1.306 1.63 2.256 3.067 2.283A6.588 6.588 0 0 1 0 13.557 9.29 9.29 0 0 0 5.026 15z" />
+  //     </svg>
+  //   ),
+  // },
   {
     name: "linkedin",
-    href: "https://www.linkedin.com/in/rohan-bansal/",
+    href: "https://www.linkedin.com/in/rohan-bansal-762ab12a7/",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

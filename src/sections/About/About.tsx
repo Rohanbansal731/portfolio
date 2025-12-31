@@ -23,16 +23,16 @@ const About = (): JSX.Element => {
               <h3 className="content-title">My Journey</h3>
               <div className="story-text">
                 <p>
-                  My journey in technology began in school with C and C++, sparking a passion that led me to pursue a Bachelor's in Computer Applications. I honed my problem-solving skills through coding competitions, earning recognition in "Debug the Bug" and Technical Quizzes.
+                  My journey in technology began with a fascination for creating digital solutions. Starting with C and C++ fundamentals, I quickly discovered my passion for full-stack development during my Bachelor's in Computer Applications.
                 </p>
                 <p>
-                  I explored modern web and backend technologies, working on projects like a Bank Management System (C#) and a Property Management System (ReactJS + TypeScript + .NET + PostgreSQL), gaining hands-on experience in full-stack development.
+                  I've worked on diverse projects ranging from Bank Management Systems using C# to modern Property Management platforms with React, TypeScript, .NET, and PostgreSQL. Each project taught me the importance of both frontend user experience and robust backend architecture.
                 </p>
                 <p>
-                  Today, I'm a Software Engineer building dynamic and scalable web applications with expertise in ReactJS, TypeScript, React Native, .NET, C#, Golang, and PostgreSQL. I'm also pursuing my Master's in Computer Applications at Chandigarh University.
+                  Currently pursuing my Master's in Computer Applications with specialization in Full Stack Development at Chandigarh University, I'm deepening my expertise in modern web technologies, microservices, and cloud architecture while working as a Software Engineer.
                 </p>
                 <p>
-                  For me, this path is about solving problems, embracing challenges, and building impactful solutions — and it's only just beginning.
+                  My approach combines technical excellence with user-centric design, ensuring every application I build is not just functional, but delightful to use. I believe in continuous learning and staying ahead of technology trends.
                 </p>
               </div>
             </div>
@@ -104,9 +104,9 @@ const About = (): JSX.Element => {
 
             {/* Skills Preview */}
             <div className="skills-preview" data-aos="fade-up" data-aos-delay="700">
-              <h4 className="skills-title">Tech Stack</h4>
+              <h4 className="skills-title">Full Stack Technologies</h4>
               <div className="skills-tags">
-                {['React', 'TypeScript', 'React Native', '.NET', 'Golang', 'PostgreSQL'].map((skill, index) => (
+                {['React.js', 'Node.js', 'TypeScript', 'MongoDB', 'Express.js', 'Next.js'].map((skill, index) => (
                   <span 
                     key={index}
                     className="skill-tag"

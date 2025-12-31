@@ -83,7 +83,7 @@ const Contact = (): JSX.Element => {
         isOpen: true,
         type: 'error',
         title: 'Message Failed to Send',
-        message: 'Something went wrong. Please try again or email me directly at sudhanshgoel0001@gmail.com'
+        message: 'Something went wrong. Please try again or email me directly at bansalrohan507@gmail.com'
       });
 
       // Auto-close alert after 6 seconds (longer for error to read email)
@@ -214,7 +214,7 @@ const Contact = (): JSX.Element => {
                 <div className="info-header">
                   <h3 className="info-title">Let's Connect</h3>
                   <p className="info-subtitle">
-                    I'm currently working as a Software Engineer and am always interested in new challenges and opportunities.
+                    I'm currently working as a Full Stack Developer and am always interested in new challenges and opportunities in web development.
                   </p>
                 </div>
 
@@ -225,8 +225,8 @@ const Contact = (): JSX.Element => {
                     </div>
                     <div className="method-content">
                       <h4 className="method-title">Email</h4>
-                      <p className="method-value">sudhanshgoel0001@gmail.com</p>
-                      <a href="mailto:sudhanshgoel0001@gmail.com" className="method-link">
+                      <p className="method-value">bansalrohan507@gmail.com</p>
+                      <a href="mailto:bansalrohan507@gmail.com" className="method-link">
                         Send Email
                       </a>
                     </div>
@@ -238,8 +238,8 @@ const Contact = (): JSX.Element => {
                     </div>
                     <div className="method-content">
                       <h4 className="method-title">Phone</h4>
-                      <p className="method-value">+91 9781625544</p>
-                      <a href="tel:+919781625544" className="method-link">
+                      <p className="method-value">+91 9050600731</p>
+                      <a href="tel:+919050600731" className="method-link">
                         Call Now
                       </a>
                     </div>
@@ -277,11 +277,11 @@ const Contact = (): JSX.Element => {
                   Let's discuss how we can bring your ideas to life.
                 </p>
                 <div className="cta-buttons">
-                  <a href="mailto:sudhanshgoel0001@gmail.com" className="btn-modern btn-primary">
+                  <a href="mailto:bansalrohan507@gmail.com" className="btn-modern btn-primary">
                     <FiMail className="btn-icon" />
                     Email Me Directly
                   </a>
-                  <a href="tel:+919781625544" className="btn-modern btn-outline">
+                  <a href="tel:+919050600731" className="btn-modern btn-outline">
                     <FiPhone className="btn-icon" />
                     Call Me
                   </a>

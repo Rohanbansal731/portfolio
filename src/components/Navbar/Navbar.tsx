@@ -67,7 +67,7 @@ const NavbarComponent: React.FC = () => {
               duration={500}
               onClick={closeMenu}
             >
-              <LogoGradientSVG text="SG" className="fw-bold" height={32} />
+              <LogoGradientSVG text="RB" className="fw-bold" height={32} />
             </Link>
 
             {/* Desktop Navigation */}
@@ -127,7 +127,7 @@ const NavbarComponent: React.FC = () => {
                 duration={500}
                 onClick={closeMenu}
               >
-                <LogoGradientSVG text="SG" className="fw-bold" height={32} />
+                <LogoGradientSVG text="RB" className="fw-bold" height={32} />
               </Link>
             </div>
             <div className="mobile-menu-controls">

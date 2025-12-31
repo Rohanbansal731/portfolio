@@ -2,7 +2,7 @@
 
 ## Step 1: Add Your PDF File
 1. Place your resume PDF file in this folder: `public/resume/`
-2. Rename your PDF file to: `Sudhansh_Goel_Resume.pdf`
+2. Rename your PDF file to: `Rohan_Bansal_Resume.pdf`
    - OR update the filename in the Hero component (see Step 2)
 
 ## Step 2: Update the Filename (if needed)
@@ -25,15 +25,15 @@ If you want to use a different filename, update the Hero component:
 3. Users can click "Download CV" button to download your resume
 
 ## Current Configuration:
-- **Expected filename:** `Sudhansh_Goel_Resume.pdf`
-- **Full path:** `public/resume/Sudhansh_Goel_Resume.pdf`
-- **Download URL:** `/resume/Sudhansh_Goel_Resume.pdf`
+- **Expected filename:** `Rohan_Bansal_Resume.pdf`
+- **Full path:** `public/resume/Rohan_Bansal_Resume.pdf`
+- **Download URL:** `/resume/Rohan_Bansal_Resume.pdf`
 
 ## Example File Structure:
 ```
 public/
 ├── resume/
-│   ├── Sudhansh_Goel_Resume.pdf  ← Your PDF file goes here
+│   ├── Rohan_Bansal_Resume.pdf  ← Your PDF file goes here
 │   ├── README.md
 │   └── HOW_TO_ADD_RESUME.md
 ├── favicon.svg

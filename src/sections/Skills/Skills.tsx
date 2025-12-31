@@ -8,7 +8,7 @@ import { FaBullseye } from 'react-icons/fa';
 const Skills = (): JSX.Element => {
   // Additional technologies for tags
   const additionalTech = [
-    'Git', 'GitHub', 'Postman', 'Figma', 'Jira', 'REST APIs', 'GraphQL', 'JWT', 'OAuth', 'Microservices', 'Third-party Integrations', 'Twilio', 'Stripe', 'Supabase', 'CI/CD', 'Responsive Design', 'PWA', 'Testing', 'Debugging'
+    'Git', 'GitHub', 'Postman', 'Figma', 'VS Code', 'REST APIs', 'GraphQL', 'JWT', 'OAuth', 'Microservices', 'Socket.io', 'Webpack', 'Babel', 'ESLint', 'Prettier', 'Jest', 'Cypress', 'Docker', 'AWS', 'Vercel', 'Netlify', 'Responsive Design', 'PWA', 'SEO', 'Performance Optimization'
   ];
 
   return (

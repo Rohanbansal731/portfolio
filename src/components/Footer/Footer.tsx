@@ -39,11 +39,11 @@ const Footer: React.FC = () => {
                         {/* Brand Section */}
                         <div className="footer-brand">
                             <div className="brand-logo">
-                                <MultiShadeText text="Sudhansh Goel" className="fw-bold" />
+                                <MultiShadeText text="Rohan Bansal" className="fw-bold" />
                             </div>
                             <p className="brand-description">
-                                Software Engineer passionate about creating innovative solutions with modern technologies. 
-                                Specializing in full-stack development with expertise in React, .NET Core, and Golang.
+                                Full Stack Developer passionate about creating innovative web solutions with modern technologies. 
+                                Specializing in React.js, Node.js, and cloud architecture. Currently pursuing MCA in Full Stack Development.
                             </p>
                             <div className="brand-status">
                                 <div className="status-indicator">
@@ -83,8 +83,8 @@ const Footer: React.FC = () => {
                                     </div>
                                     <div className="contact-details">
                                         <span className="contact-label">Email</span>
-                                        <a href="mailto:sudhanshgoel0001@gmail.com" className="contact-value">
-                                            sudhanshgoel0001@gmail.com
+                                        <a href="mailto:bansalrohan507@gmail.com" className="contact-value">
+                                            bansalrohan507@gmail.com
                                         </a>
                                     </div>
                                 </div>
@@ -95,8 +95,8 @@ const Footer: React.FC = () => {
                                     </div>
                                     <div className="contact-details">
                                         <span className="contact-label">Phone</span>
-                                        <a href="tel:+919781625544" className="contact-value">
-                                            +91 9781625544
+                                        <a href="tel:+919050600731" className="contact-value">
+                                            +91 9050600731
                                         </a>
                                     </div>
                                 </div>
@@ -138,19 +138,19 @@ const Footer: React.FC = () => {
                     <div className="footer-bottom">
                         <div className="footer-bottom-content">
                             <div className="copyright">
-                                <span>© 2025 Sudhansh Goel. All rights reserved.</span>
+                                <span>© 2025 Rohan Bansal. All rights reserved.</span>
                             </div>
                             
                             <div className="footer-meta">
                                 <span className="work-status">
                                     Currently working at{" "}
                                     <a 
-                                        href="https://ginilytics.com" 
+                                        href="https://techsolutions.com" 
                                         target="_blank" 
                                         rel="noopener noreferrer"
                                         className="company-link"
                                     >
-                                        Ginilytics IT Solution
+                                        Tech Solutions
                                     </a>
                                 </span>
                             </div>
